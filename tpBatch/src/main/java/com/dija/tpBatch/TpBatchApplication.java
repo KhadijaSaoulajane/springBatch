@@ -30,7 +30,6 @@ public class TpBatchApplication implements CommandLineRunner {
 	public static void main(String[] args) {
 		SpringApplication.run(TpBatchApplication.class, args);		
 	}
-	
 	// In case we want to schedule it
 	//@Scheduled(cron = "0 */1 * * * ?")
 	@Override
